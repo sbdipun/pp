@@ -47,7 +47,7 @@ mongourl = 'mongodb+srv://dipssss:dipssss@dipsssss.3mpvved.mongodb.net/?retryWri
 client = pymongo.MongoClient(mongourl,serverSelectionTimeoutMS=5000)
 maindb = client.bot['main']
 
-antidb = redis.Redis(host='redis-10552.c10.us-east-1-2.ec2.cloud.redislabs.com:10552', port=REDIS_PASS, password='DIt3wWK5Ei7QwqOvgWkS9zDCnMq0fvLd')
+antidb = redis.Redis(host='redis-10552.c10.us-east-1-2.ec2.cloud.redislabs.com:10552', port=10552, password='DIt3wWK5Ei7QwqOvgWkS9zDCnMq0fvLd')
 
 BOT_USERNAME = 'BOT_USERNAME'
 loggp = -735069168
