@@ -49,7 +49,7 @@ maindb = client.bot['main']
 
 antidb = redis.Redis(host='redis-10552.c10.us-east-1-2.ec2.cloud.redislabs.com:10552', port=10552, password='DIt3wWK5Ei7QwqOvgWkS9zDCnMq0fvLd')
 
-BOT_USERNAME = 'BOT_USERNAME'
+BOT_USERNAME = '@vmergeEBot'
 loggp = -735069168
 waste_cards = [1,2,7,8,9,0]
 banned_bins = open('files/bannedbin.txt', 'r').readlines()
